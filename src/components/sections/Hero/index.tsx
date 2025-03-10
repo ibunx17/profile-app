@@ -14,7 +14,7 @@ export default function Hero() {
                     </div>
                     <div className="w-full self-end px-4 lg:w-1/2">
                         <div className="mt-10 lg:mt-0 lg:right-0">
-                            <img src="/foto.png" alt="gambar profile" className="max-w-full mx-auto"/>
+                            <img src="/iqbal-maulana-pp.png" alt="gambar profile" className="max-w-full mx-auto"/>
                         </div>
                     </div>
                  </div>
