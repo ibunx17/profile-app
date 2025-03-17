@@ -3,6 +3,7 @@ import HeroPage from "@/pages/sections/Hero/page";
 import AboutPage from "@/pages/sections/AboutMe/page";
 import SkillsPage from "@/pages/sections/Skills/page";
 import Navbar from "@/components/Navbar";
+import PortfolioPage from "@/pages/sections/Portfolio/page";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <HeroPage />
       <AboutPage />
       <SkillsPage />
+      <PortfolioPage />
     </div>
   );
 }

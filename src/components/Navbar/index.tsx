@@ -36,7 +36,7 @@ export default function Navbar() {
         window.removeEventListener('scroll', handleScroll);
     };
 
-}, [])
+    }, [])
 
     return (
         <header className={`bg-transparent absolute top-0 left-0 w-full flex items-center z-10 ${isFixed ? 'navbar-fixed' : ''}`}>
@@ -67,16 +67,16 @@ export default function Navbar() {
                                     <a href="#skills" className="navbar-menu">Skills</a>
                                 </li>
                                 <li className="group">
-                                    <a href="#Portfolio" className="navbar-menu">Portfolio</a>
+                                    <a href="#portfolio" className="navbar-menu">Portfolio</a>
                                 </li>
                                 <li className="group">
-                                    <a href="#Experience" className="navbar-menu">Experience</a>
+                                    <a href="#experience" className="navbar-menu">Experience</a>
                                 </li>
                                 <li className="group">
-                                    <a href="#Testimonials" className="navbar-menu">Testimonials</a>
+                                    <a href="#eestimonials" className="navbar-menu">Testimonials</a>
                                 </li>
                                 <li className="group">
-                                    <a href="#Contact" className="navbar-menu">Contact</a>
+                                    <a href="#contact" className="navbar-menu">Contact</a>
                                 </li>
                             </ul>
                         </nav>
