@@ -32,7 +32,7 @@ export default function About() {
     }, [isSectionVisible]);
 
     return (         
-          <div id="about" ref={aboutSectionRef} className="pt-36 pl-4">
+          <div id="about" ref={aboutSectionRef} className="pt-96 pl-4 mt-96">
             <div className="container">
                 <motion.div 
                     initial={{ y: '-100%', opacity: 0 }}

@@ -26,7 +26,7 @@ export default function Hero() {
 
     return (
         <div ref={heroSectionRef} 
-            className="pt-36"
+            className="pt-96"
         >
             <div className="container">
                 <div className="flex flex-wrap">
@@ -60,7 +60,7 @@ export default function Hero() {
                                 alt="gambar profile"                              
                                 width={200}
                                 height={200}
-                                className="max-w-full mx-auto rounded-full bg-gray-800"
+                                className="rounded-full bg-gray-800"
                                 loading="eager"
                                 priority
                                 decoding="sync"

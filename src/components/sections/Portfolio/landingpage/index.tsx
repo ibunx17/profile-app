@@ -21,7 +21,7 @@ export default function LandingPage(){
       <h1 className="md:text-lg lg:text-3xl absolute top-0 left-1/2 transform -translate-x-1/2 text-center items-center p-3">
       Profile Landing Page 
       </h1>
-      <img src="landing-page.png" alt="landing-page" className="flex lg:w-1/2 rounded-md shadow-md overflow-hidden"/>
+      <img src="landing-page.png" alt="landing-page" className="w-[500] h-[500] flex lg:w-1/2 rounded-md shadow-md overflow-hidden"/>
       <div className="flex lg:w-1/2 ">
         <p className={`text-lg md:text-2xl lg:3xl px-5   transition-colors duration-500 ease-in-out ${isContentVisible ? 'text-white' : 'text-gray-400'}`}>
           The goal of this project was to design and develop a modern, 
