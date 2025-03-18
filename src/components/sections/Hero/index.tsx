@@ -56,14 +56,14 @@ export default function Hero() {
                         transition={{ duration: 1.5, ease: "easeInOut", type:"spring" }}>
                         <div className="mt-10 lg:mt-0 lg:right-0">
                             <Image
-                                src="/iqbal-maulana-pp.webp"
+                                src="/iqbal-maulana-pp.png"
                                 alt="gambar profile"                              
-                                width={500}
-                                height={500}
-                                className="rounded-full bg-gray-800"
+                                className=" rounded-full bg-gray-800"
                                 loading="eager"
                                 priority
                                 decoding="sync"
+                                width={500}
+                                height={500}
                                 placeholder="blur"
                                 blurDataURL="/path/to/low-quality-image.jpg"
                                 sizes="(max-width: 768px) 100vw, 50vw"
