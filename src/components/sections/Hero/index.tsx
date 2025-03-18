@@ -61,7 +61,9 @@ export default function Hero() {
                                 width={500}
                                 height={500}
                                 className="max-w-full mx-auto rounded-full bg-gray-800"
-                                loading="lazy"
+                                loading="eager"
+                                priority
+                                decoding="sync"
                                 placeholder="blur"
                                 blurDataURL="/path/to/low-quality-image.jpg"  // Gambar kualitas rendah
                             />
