@@ -57,16 +57,15 @@ export default function Hero() {
                         <div className="mt-10 lg:mt-0 lg:right-0">
                             <Image
                                 src="/iqbal-maulana-pp.webp"
-                                alt="gambar profile"
-                                width={500}
-                                height={500}
+                                alt="gambar profile"                              
+                                width={200}
+                                height={200}
                                 className="max-w-full mx-auto rounded-full bg-gray-800"
                                 loading="eager"
                                 priority
                                 decoding="sync"
                                 placeholder="blur"
                                 blurDataURL="/path/to/low-quality-image.jpg"
-                                sizes="(max-width: 640px) 400px, 800px"   // Gambar kualitas rendah
                             />
                         </div>
                     </motion.div>
