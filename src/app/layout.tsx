@@ -28,7 +28,7 @@ export default function RootLayout({
       <head>
         <link
           rel="preload"
-          href="/iqbal-maulana-pp.webp"
+          href="/iqbal-maulana-pp.png"
           as="image"
           type="image/webp"
         />

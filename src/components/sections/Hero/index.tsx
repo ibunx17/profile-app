@@ -55,7 +55,7 @@ export default function Hero() {
                         dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
                         transition={{ duration: 1.5, ease: "easeInOut", type:"spring" }}>
                         <div className="mt-10 lg:mt-0 lg:right-0">
-                            {/* <Image
+                            <Image
                                 src="/iqbal-maulana-pp.png"
                                 alt="gambar profile"                              
                                 className=" rounded-full bg-gray-800"
@@ -67,7 +67,7 @@ export default function Hero() {
                                 height={555}
                                 placeholder="blur"
                                 blurDataURL="/path/to/low-quality-image.jpg"
-                            /> */}
+                            />
                         </div>
                     </motion.div>
                 </div>
