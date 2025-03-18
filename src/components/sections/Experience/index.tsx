@@ -73,8 +73,8 @@ const Experience: React.FC = () => {
               <div className="flex flex-col lg:flex-row relative z-10">
                 <div className="timeline-content px-6 py-4 ml-4 bg-white rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl mt-6 lg:mt-5 lg:ml-4 md:w-[500px]">
                   <div className="flex flex-col md:flex-row items-start md:items-center">
-                    <h3 className="text-xl font-semibold text-gray-900">{item.yearRange}</h3>
-                    <h4 className="ml-0 md:ml-4 mt-2 md:mt-0 text-lg font-medium text-gray-700">{item.company}</h4>
+                    <h2 className="text-xl font-semibold text-gray-900">{item.yearRange}</h2>
+                    <h3 className="ml-0 md:ml-4 mt-2 md:mt-0 text-lg font-medium text-gray-700">{item.company}</h3>
                   </div>
                   <div className="mt-2 text-md text-gray-600">{item.position}</div>
                   <p className="mt-2 text-sm text-gray-500">{item.description}</p>

@@ -33,7 +33,7 @@ export default function ECommerce(){
       </div>
       <div className={`transition-max-height duration-1000 ease-in-out overflow-hidden ${isContentVisible ? 'max-h-[2500px] text-white' : 'max-h-0 text-gray-400'}`}>
         <div className="mt-8">
-          <h3 className="text-2xl font-medium text-slate-900 mb-4">Situation</h3>
+          <h2 className="text-2xl font-medium text-slate-900 mb-4">Situation</h2>
           <p className="text-lg">
             XYZ Retail wanted to expand their business online, as they primarily relied on in-store sales. 
             They sought an e-commerce solution to allow customers to browse products, make secure payments, 
@@ -42,7 +42,7 @@ export default function ECommerce(){
           </p>
         </div>
         <div className="mt-8">
-          <h3 className="text-2xl font-medium text-slate-900 mb-4">Task</h3>
+          <h2 className="text-2xl font-medium text-slate-900 mb-4">Task</h2>
           <p className="text-lg">
             My task was to develop a fully functional e-commerce platform that would:
           </p>
@@ -54,7 +54,7 @@ export default function ECommerce(){
             </ul>
         </div>
         <div className="mt-8">
-          <h3 className="text-2xl font-medium text-slate-900 mb-4">Action</h3>
+          <h2 className="text-2xl font-medium text-slate-900 mb-4">Action</h2>
           <p className="text-lg">
             To achieve these goals, I implemented the following:
           </p>
@@ -66,7 +66,7 @@ export default function ECommerce(){
             </ul>
         </div>
         <div className="mt-8">
-          <h3 className="text-2xl font-medium text-slate-900 mb-4">Result</h3>
+          <h2 className="text-2xl font-medium text-slate-900 mb-4">Result</h2>
           <p className="text-lg">
             The project was a success, resulting in:
           </p>

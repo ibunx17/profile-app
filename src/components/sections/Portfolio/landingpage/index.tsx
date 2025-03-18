@@ -32,7 +32,7 @@ export default function LandingPage(){
       </div>
       <div className={`transition-max-height duration-1000 ease-in-out overflow-hidden ${isContentVisible ? 'max-h-[2500px] text-white' : 'max-h-0 text-gray-400'}`}>
         <div className="mt-8">
-          <h3 className="text-2xl font-medium text-slate-900 mb-4">Situation</h3>
+          <h2 className="text-2xl font-medium text-slate-900 mb-4">Situation</h2>
           <p className="text-lg">
             ABC Professional, a freelance graphic designer, had been relying on word-of-mouth to find clients 
             and had no dedicated online presence. In order to attract more potential clients, 
@@ -42,7 +42,7 @@ export default function LandingPage(){
           </p>
         </div>
         <div className="mt-8">
-          <h3 className="text-2xl font-medium text-slate-900 mb-4">Task</h3>
+          <h2 className="text-2xl font-medium text-slate-900 mb-4">Task</h2>
           <p className="text-lg">
             My responsibility as the lead developer was to:
           </p>
@@ -54,7 +54,7 @@ export default function LandingPage(){
           </ul>
         </div>
         <div className="mt-8">
-          <h3 className="text-2xl font-medium text-slate-900 mb-4">Action</h3>
+          <h2 className="text-2xl font-medium text-slate-900 mb-4">Action</h2>
           <p className="text-lg">
             To achieve the outlined objectives, I undertook the following steps:
           </p>
@@ -98,7 +98,7 @@ export default function LandingPage(){
           </ul>          
         </div>
         <div className="mt-8">
-          <h3 className="text-2xl font-medium text-slate-900 mb-4">Result</h3>
+          <h2 className="text-2xl font-medium text-slate-900 mb-4">Result</h2>
           <p className="text-lg">
            The project was a success, delivering the following outcomes:
           </p>

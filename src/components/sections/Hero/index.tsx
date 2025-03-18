@@ -58,14 +58,15 @@ export default function Hero() {
                             <Image
                                 src="/iqbal-maulana-pp.webp"
                                 alt="gambar profile"                              
-                                width={200}
-                                height={200}
+                                width={500}
+                                height={500}
                                 className="rounded-full bg-gray-800"
                                 loading="eager"
                                 priority
                                 decoding="sync"
                                 placeholder="blur"
                                 blurDataURL="/path/to/low-quality-image.jpg"
+                                sizes="(max-width: 768px) 100vw, 50vw"
                             />
                         </div>
                     </motion.div>

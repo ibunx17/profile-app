@@ -51,7 +51,7 @@ export default function Navbar() {
                         <a href="#" className="text-base font-semibold py-3 text-zinc-600 hover:text-gray-500 transition duration-300 ease-in-out md:text-xl lg:2xl">IM</a>
                     </div>
                     <div className="flex items-center px-4">
-                        <button id="hamburger" name="hamburger" type="button" className={`lg:hidden block absolute right-4                        
+                        <button id="hamburger" name="listmenu" type="button" aria-label="aria name" className={`lg:hidden block absolute right-4                        
                         ${isMenuOpen ? 'hamburger-active' : ''}`}
                         onClick={handleHamburgerClick}>
                             <span className="hamburger-line origin-top-left"></span>
