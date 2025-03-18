@@ -1,6 +1,7 @@
 'use client'
 import { useState, useRef, useEffect } from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function Hero() {
     const [isSectionVisible, setIsSectionVisible] = useState(false);
@@ -48,16 +49,21 @@ export default function Hero() {
                         className="w-full self-end px-4 lg:w-1/2"
                         initial={{ x: '100%', opacity: 0 }}
                         animate={isSectionVisible ? { x: 0, opacity: 1 } : { x: '100%', opacity: 0 }}
+                        whileHover={{ scale: 1.1 }}
+                        whileTap={{ scale: 0.95 }}
+                        drag
+                        dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
                         transition={{ duration: 1.5, ease: "easeInOut", type:"spring" }}>
                         <div className="mt-10 lg:mt-0 lg:right-0">
-                            <motion.img
-                                src="/iqbal-maulana-pp.png"
+                            <Image
+                                src="/iqbal-maulana-pp.webp"
                                 alt="gambar profile"
+                                width={500}
+                                height={500}
                                 className="max-w-full mx-auto rounded-full bg-gray-800"
-                                whileHover={{ scale: 1.1 }}
-                                whileTap={{ scale: 0.95 }}
-                                drag
-                                dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
+                                loading="lazy"
+                                placeholder="blur"
+                                blurDataURL="/path/to/low-quality-image.jpg"  // Gambar kualitas rendah
                             />
                         </div>
                     </motion.div>
