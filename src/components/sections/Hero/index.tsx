@@ -62,11 +62,11 @@ export default function Hero() {
                                 loading="eager"
                                 priority
                                 decoding="sync"
-                                width={500}
-                                height={500}
+                                width={400}
+                                height={400}
                                 placeholder="blur"
                                 blurDataURL="/path/to/low-quality-image.jpg"
-                                sizes="(max-width: 412px) 200px, 500px"
+                              layout="responsive"
                             />
                         </div>
                     </motion.div>
