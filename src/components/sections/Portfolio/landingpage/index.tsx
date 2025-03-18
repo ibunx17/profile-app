@@ -1,20 +1,23 @@
 'use client'
-import { useState } from "react";
+import { useState, useRef } from "react";
 export default function LandingPage(){
       const [isContentVisible, setIsContentVisible] = useState(false);
-      const [isScrolledPast, setIsScrolledPast] = useState(false);
+      const sectionRef = useRef<HTMLDivElement | null>(null);
   
       const toggleContentVisibility = () => {
           setIsContentVisible(!isContentVisible);
+          if (!isContentVisible && sectionRef.current) {
+          sectionRef.current.scrollIntoView({ behavior: 'smooth' });
+        }
+
       };
 
       const navigateToLiveProject = () => {
         window.open("https://profile-portfolio-iqbal.vercel.app/", "_blank"); // Opens the URL in a new tab
       };
-
   
   return (
-    <div className="flex flex-wrap w-full px-5 pt-24 bg-gray-500 p-6 rounded-lg shadow-lg transition-all duration-300 transform mx-1 my-1">
+    <div ref={sectionRef} className="flex flex-wrap w-full px-5 pt-24 bg-gray-500 p-6 rounded-lg shadow-lg transition-all duration-300 transform mx-1 my-1">
       <h1 className="md:text-lg lg:text-3xl absolute top-0 left-1/2 transform -translate-x-1/2 text-center items-center p-3">
       Profile Landing Page 
       </h1>

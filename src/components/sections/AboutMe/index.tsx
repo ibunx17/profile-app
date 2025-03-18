@@ -20,7 +20,7 @@ export default function About() {
         ([entry]) => {
             setIsSectionVisible(entry.isIntersecting);
         },
-        { threshold: 0.5 } // Trigger when 50% of the section is visible
+        { threshold: 0.1 } // Trigger when 50% of the section is visible
         );
         if (aboutSectionRef.current) {
         observer.observe(aboutSectionRef.current);

@@ -11,7 +11,7 @@ export default function Hero() {
       ([entry]) => {
         setIsSectionVisible(entry.isIntersecting);
       },
-      { threshold: 0.5 } // Trigger when 10% of the section is visible
+      { threshold: 0.2 } // Trigger when 10% of the section is visible
     );
 
     if (heroSectionRef.current) {
@@ -41,7 +41,7 @@ export default function Hero() {
                             Specializing in high-performance web apps with JavaScript, Next.js,
                             and Tailwind CSS. Focused on clean, scalable, and responsive UI development
                         </p>
-                        <a href="#" className="text-base font-semibold text-white bg-gray-800 py-3 px-8 rounded-full
+                        <a href="#contact" className="text-base font-semibold text-white bg-gray-800 py-3 px-8 rounded-full
                         hover:bg-gray-500 transition duration-300 ease-in-out md:text-xl lg:2xl">Contact Me</a>
                     </motion.div>
                     <motion.div
@@ -50,7 +50,15 @@ export default function Hero() {
                         animate={isSectionVisible ? { x: 0, opacity: 1 } : { x: '100%', opacity: 0 }}
                         transition={{ duration: 1.5, ease: "easeInOut", type:"spring" }}>
                         <div className="mt-10 lg:mt-0 lg:right-0">
-                            <img src="/iqbal-maulana-pp.png" alt="gambar profile" className="max-w-full mx-auto rounded-full bg-gray-800" />
+                            <motion.img
+                                src="/iqbal-maulana-pp.png"
+                                alt="gambar profile"
+                                className="max-w-full mx-auto rounded-full bg-gray-800"
+                                whileHover={{ scale: 1.1 }}
+                                whileTap={{ scale: 0.95 }}
+                                drag
+                                dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
+                            />
                         </div>
                     </motion.div>
                 </div>

@@ -16,7 +16,7 @@ export default function Skills() {
         ([entry]) => {
           setIsContentVisible(entry.isIntersecting);
         },
-        { threshold: 0.5 } // Trigger when 10% of the section is visible
+        { threshold: 0.2 } // Trigger when 10% of the section is visible
       );
   
       if (skillsRef.current) {
@@ -29,9 +29,9 @@ export default function Skills() {
     }, [isContentVisible]);
 
   return (
-    <div ref={skillsRef} id="skills-section" className="pt-96 mt-[500px]">
+    <div ref={skillsRef} id="skills-section" className="pt-20 md:pt-96 lg:pt-96 mt-[500px]">
       <div className="container">
-        <h1 className="block font-bold text-gray-500 text-xl mt-1 md:text-4xl lg:5xl mb-3 text-center">Skills</h1>
+        <h1 className="block font-bold text-xl mt-1 md:text-4xl lg:5xl mb-3 text-center">Skills</h1>
         <div className="flex flex-wrap justify-center">
             <div className="mr-1" >
             <motion.div

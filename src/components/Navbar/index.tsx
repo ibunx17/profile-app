@@ -20,12 +20,16 @@ export default function Navbar() {
     const handleScroll = () => {
         const header = document.querySelector('header')!;
         const fixedNav = header.offsetTop;
+        console.log(window.scrollY);
+        console.log(fixedNav);
        
-         if(window.scrollY > fixedNav){
+        if(window.scrollY > fixedNav){
+            console.log("kena");
            setIsFixed(true);
-         }  else {
-            setIsFixed(false);
-        }       
+        } else {
+            console.log("gak kena");
+           setIsFixed(false);
+        }
     };
 
     // Add event listener on mount
@@ -40,10 +44,11 @@ export default function Navbar() {
 
     return (
         <header className={`bg-transparent absolute top-0 left-0 w-full flex items-center z-10 ${isFixed ? 'navbar-fixed' : ''}`}>
+         {/* <header className={`bg-transparent fixed top-0 left-0 w-full flex items-center z-10 `}> */}
             <div className="container">
                 <div className="flex items-center justify-between relative">
-                    <div className="px-4 py-3">
-                        <a href="#" className="text-base font-semibold text-zinc-600 hover:text-gray-500 transition duration-300 ease-in-out md:text-xl lg:2xl">IM</a>
+                    <div className="px-4">
+                        <a href="#" className="text-base font-semibold py-3 text-zinc-600 hover:text-gray-500 transition duration-300 ease-in-out md:text-xl lg:2xl">IM</a>
                     </div>
                     <div className="flex items-center px-4">
                         <button id="hamburger" name="hamburger" type="button" className={`lg:hidden block absolute right-4                        
@@ -73,7 +78,7 @@ export default function Navbar() {
                                     <a href="#experience" className="navbar-menu">Experience</a>
                                 </li>
                                 <li className="group">
-                                    <a href="#eestimonials" className="navbar-menu">Testimonials</a>
+                                    <a href="#testimonials" className="navbar-menu">Testimonials</a>
                                 </li>
                                 <li className="group">
                                     <a href="#contact" className="navbar-menu">Contact</a>

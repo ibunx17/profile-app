@@ -22,7 +22,7 @@ export default {
         "2xl" : "1320px"
       },
       animation: {
-        "loop-scroll": "loop-scroll 70s linear infinite"
+        "loop-scroll": "loop-scroll 50s linear infinite"
       },
       keyframes:{
         "loop-scroll":{

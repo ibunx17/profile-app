@@ -13,7 +13,7 @@ export default function Portfolio() {
       ([entry]) => {
         setIsContentVisible(entry.isIntersecting);
       },
-      { threshold: 0.5 } // Trigger when 10% of the section is visible
+      { threshold: 0.1 } // Trigger when 10% of the section is visible
     );
 
     if (portfolioRef.current) {
@@ -26,9 +26,9 @@ export default function Portfolio() {
   }, [isContentVisible]);
 
   return (
-    <div ref={portfolioRef} className="pt-20 mt-[500px]">
+    <div ref={portfolioRef} className="pt-20 md:pt-96 lg:pt-96 pl-4 mt-[500px] max-h-[5000px] mb-96">
       <div className="container">
-        <h1 className="block font-bold text-gray-500 text-xl mt-1 md:text-4xl lg:5xl mb-3 text-center">
+        <h1 className="block font-bold text-xl mt-1 md:text-4xl lg:5xl mb-3 text-center">
           Portfolio
         </h1>
         <div className="flex flex-wrap justify-center">
