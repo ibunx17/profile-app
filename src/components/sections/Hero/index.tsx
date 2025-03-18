@@ -59,7 +59,7 @@ export default function Hero() {
                                 src="/iqbal-maulana-pp.png"
                                 alt="gambar profile"                              
                                 className=" rounded-full bg-gray-800"
-                                loading="eager"
+                                loading="lazy"
                                 priority
                                 decoding="sync"
                                 layout="responsive"
