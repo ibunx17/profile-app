@@ -38,7 +38,7 @@ export default function Hero() {
                     > */}
                         <h1 className="block font-bold text-gray-700 text-xl mt-1 md:text-2xl lg:text-3xl mb-3">Iqbal Maulana</h1>
                         <h2 className="font-medium text-slate-900 md:text-xl lg:text-2xl">Full-Stack Web Developer & Software Engineer</h2>
-                        <p className="font-medium text-slate-600 mb-10 leading-relaxed md:text-lg lg:text-xl">
+                        <p className="font-medium text-slate-600 mb-10 leading-relaxed text-base md:text-lg lg:text-xl">
                             Specializing in high-performance web apps with JavaScript, Next.js,
                             and Tailwind CSS. Focused on clean, scalable, and responsive UI development
                         </p>
