@@ -62,8 +62,8 @@ export default function Hero() {
                                 loading="eager"
                                 priority
                                 decoding="sync"
-                                width={300}
-                                height={300}
+                                width={200}
+                                height={200}
                                 placeholder="blur"
                                 blurDataURL="/path/to/low-quality-image.jpg"
                               layout="responsive"
