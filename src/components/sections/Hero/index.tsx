@@ -56,7 +56,7 @@ export default function Hero() {
                         transition={{ duration: 1.5, ease: "easeInOut", type:"spring" }}>
                         <div className="mt-10 lg:mt-0 lg:right-0">
                             <Image
-                                src="/iqbal-maulana-pp.png"
+                                src="/foto.png"
                                 alt="gambar profile"                              
                                 className=" rounded-full bg-gray-800"
                                 loading="eager"
