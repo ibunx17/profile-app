@@ -46,7 +46,7 @@ export default function Navbar() {
         <header className={`bg-transparent absolute top-0 left-0 w-full flex items-center z-10 ${isFixed ? 'navbar-fixed' : ''}`}>
             <div className="container">
                 <div className="flex items-center justify-between relative">
-                        <a href="#" className="text-base font-semibold py-3 text-zinc-600 hover:text-gray-500 transition duration-300 ease-in-out md:text-xl lg:text-2xl">IM</a>
+                        {/* <a href="#" className="text-base font-semibold py-3 text-zinc-600 hover:text-gray-500 transition duration-300 ease-in-out md:text-xl lg:text-2xl">IM</a> */}
                     <div className="flex items-center px-4">
                         <button id="hamburger" name="listmenu" type="button" aria-label="aria name" className={`lg:hidden block absolute right-4                        
                         ${isMenuOpen ? 'hamburger-active' : ''}`}
