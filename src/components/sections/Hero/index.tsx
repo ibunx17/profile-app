@@ -65,7 +65,8 @@ export default function Hero() {
                                 priority
                                 decoding="sync"
                                 placeholder="blur"
-                                blurDataURL="/path/to/low-quality-image.jpg"  // Gambar kualitas rendah
+                                blurDataURL="/path/to/low-quality-image.jpg"
+                                sizes="(max-width: 640px) 400px, 800px"   // Gambar kualitas rendah
                             />
                         </div>
                     </motion.div>
