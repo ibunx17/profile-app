@@ -52,10 +52,10 @@ export default function Hero() {
                         transition={{ duration: 1.5, ease: "easeInOut", type:"spring" }}>
                         <div className="mt-10 lg:mt-0 lg:right-0">
                             <Image
-                                src="/foto.png"
+                                src="/foto.webp"
                                 alt="gambar profile"                              
                                 className=" rounded-full bg-gray-800"
-                                loading="lazy"
+                                loading="eager"
                                 priority
                                 decoding="sync"
                                 layout="responsive"
