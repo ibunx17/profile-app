@@ -21,7 +21,7 @@ export default function ECommerce(){
       <h1 className="md:text-lg lg:text-3xl absolute top-0 left-1/2 transform -translate-x-1/2 text-center items-center p-3">
       E-commerce Platform for XYZ Retail
       </h1>
-      <img src="E-commerce.png" alt="landing-page" className="w-[500] h-[500] flex lg:w-1/2 rounded-md shadow-md overflow-hidden"/>
+      <img src="E-commerce.png" alt="landing-page" width={500} height={500} className="flex lg:w-1/2 rounded-md shadow-md overflow-hidden"/>
       <div className="flex lg:w-1/2 ">
         <p className={`text-lg md:text-2xl lg:3xl px-5 transition-colors duration-500 ease-in-out ${isContentVisible ? 'text-white' : 'text-gray-400'}`}>
           This project involved creating an e-commerce platform for XYZ Retail, 

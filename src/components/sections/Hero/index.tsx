@@ -65,8 +65,6 @@ export default function Hero() {
                                 layout="responsive"
                                 width={250}
                                 height={250}
-                                placeholder="blur"
-                                blurDataURL="/path/to/low-quality-image.jpg"
                             />
                         </div>
                     </motion.div>
