@@ -64,7 +64,7 @@ export default function Hero() {
                                 decoding="sync"
                                 layout="responsive"
                                 width={250}
-                                height={350}
+                                height={250}
                                 placeholder="blur"
                                 blurDataURL="/path/to/low-quality-image.jpg"
                             />
