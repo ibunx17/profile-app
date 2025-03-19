@@ -29,7 +29,7 @@ export default function RootLayout({
       <head>
         <link
           rel="preload"
-          href="/foto.png"
+          href="/foto.webp"
           as="image"
           type="image/webp"
         />

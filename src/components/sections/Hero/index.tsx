@@ -59,8 +59,8 @@ export default function Hero() {
                                 priority
                                 decoding="sync"
                                 layout="responsive"
-                                width={200}
-                                height={200}
+                                width={612}
+                                height={814}
                             />
                         </div>
                     </motion.div>
