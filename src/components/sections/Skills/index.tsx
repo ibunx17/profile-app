@@ -1,6 +1,5 @@
 'use client'
 
-import { useRouter } from "next/navigation";
 import { useEffect, useState, useRef } from "react";
 import { FaHtml5, FaCss3Alt, FaJs, FaNodeJs, FaJava, FaDatabase, FaCloud } from 'react-icons/fa';
 import { SiTailwindcss, SiSharp, SiGo, SiMysql, SiMongodb, SiPostgresql, SiGooglecloud, SiAmazon, SiAlibabacloud } from 'react-icons/si';

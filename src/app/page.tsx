@@ -1,5 +1,3 @@
-import Image from "next/image";
-import HeroPage from "@/app/pages/sections/Hero/page";
 import AboutPage from "@/app/pages/sections/AboutMe/page";
 import SkillsPage from "@/app/pages/sections/Skills/page";
 import Navbar from "@/components/Navbar";
@@ -13,7 +11,7 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      <HeroPage />
+      {/* <HeroPage /> */}
       <AboutPage />
       <SkillsPage />
       <PortfolioPage />
