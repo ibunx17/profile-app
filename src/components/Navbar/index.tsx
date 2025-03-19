@@ -20,14 +20,10 @@ export default function Navbar() {
     const handleScroll = () => {
         const header = document.querySelector('header')!;
         const fixedNav = header.offsetTop;
-        console.log(window.scrollY);
-        console.log(fixedNav);
        
         if(window.scrollY > fixedNav){
-            console.log("kena");
            setIsFixed(true);
         } else {
-            console.log("gak kena");
            setIsFixed(false);
         }
     };

@@ -49,22 +49,18 @@ export default function Hero() {
                         className="w-full self-end px-4 lg:w-1/2"
                         initial={{ x: '100%', opacity: 0 }}
                         animate={isSectionVisible ? { x: 0, opacity: 1 } : { x: '100%', opacity: 0 }}
-                        whileHover={{ scale: 1.1 }}
-                        whileTap={{ scale: 0.95 }}
-                        drag
-                        dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
                         transition={{ duration: 1.5, ease: "easeInOut", type:"spring" }}>
                         <div className="mt-10 lg:mt-0 lg:right-0">
                             <Image
                                 src="/foto.png"
                                 alt="gambar profile"                              
                                 className=" rounded-full bg-gray-800"
-                                loading="eager"
+                                loading="lazy"
                                 priority
                                 decoding="sync"
                                 layout="responsive"
-                                width={250}
-                                height={250}
+                                width={200}
+                                height={200}
                             />
                         </div>
                     </motion.div>
